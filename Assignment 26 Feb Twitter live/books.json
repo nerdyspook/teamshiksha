@@ -318,37 +318,5 @@
       "discount": 0,
       "edition": 2
     }
-  },
-  {
-    "id": "21",
-    "title": "Atomic Habit",
-    "author": "James Clear",
-    "publicationYear": 2024,
-    "genre": "Self Help",
-    "rating": 4.8,
-    "description": "A self help book.",
-    "metadata": {
-      "pages": 306,
-      "stockLeft": 20,
-      "price": 16.99,
-      "discount": 0,
-      "edition": 3
-    }
-  },
-  {
-    "id": "22",
-    "title": "Mahabharat",
-    "author": "Maharsi vedvyas",
-    "publicationYear": 1970,
-    "genre": "Holy book",
-    "rating": 4.9,
-    "description": "Dharmgranth.",
-    "metadata": {
-      "pages": 5000,
-      "stockLeft": 20,
-      "price": 16.99,
-      "discount": 0,
-      "edition": 3
-    }
   }
 ]

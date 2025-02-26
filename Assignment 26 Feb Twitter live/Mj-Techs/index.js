@@ -101,6 +101,33 @@ app.get("/Get_Statistics", function (req, res) {
   res.json({ statistics: statistics });
 });
 
+app.get("/search", (req, res) => {
+  const { operator, ...filters } = req.query;
+
+  const conditions = Object.entries(filters).map(([key, value]) => ({
+    key,
+    value: Number(value),
+  }));
+
+  console.log("operator==>",operator,"cond==>",conditions)
+
+  if (conditions.length === 0) {
+    return res.status(400).json({ message: "At least one filter is required" });
+  }
+
+  const filteredBooks = books.filter((book) => {
+    return operator.toUpperCase() === "OR"
+      ? conditions.some(({ key, value }) => book[key] > value)
+      : conditions.every(({ key, value }) => book[key] > value);
+  });
+
+  res.json(
+    filteredBooks.length
+      ? filteredBooks
+      : { message: "No books match" }
+  );
+});
+
 app.listen(PORT, () => {
   console.log("Server is running on port:-", PORT);
 });
