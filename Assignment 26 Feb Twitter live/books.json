@@ -85,12 +85,12 @@
     "author": "Aldous Huxley",
     "publicationYear": 1932,
     "genre": "Dystopian",
-    "rating": 4.0,
+    "rating": 4,
     "description": "A vision of a future society engineered for maximum happiness but at the cost of human freedom.",
     "metadata": {
       "pages": 288,
       "stockLeft": 12,
-      "price": 13.50,
+      "price": 13.5,
       "discount": 0,
       "edition": 2
     }
@@ -138,7 +138,7 @@
     "metadata": {
       "pages": 197,
       "stockLeft": 64,
-      "price": 16.50,
+      "price": 16.5,
       "discount": 10,
       "edition": 6
     }
@@ -234,7 +234,7 @@
     "metadata": {
       "pages": 384,
       "stockLeft": 41,
-      "price": 15.00,
+      "price": 15,
       "discount": 10,
       "edition": 4
     }
@@ -317,6 +317,38 @@
       "price": 14.99,
       "discount": 0,
       "edition": 2
+    }
+  },
+  {
+    "id": "21",
+    "title": "Atomic Habit",
+    "author": "James Clear",
+    "publicationYear": 2024,
+    "genre": "Self Help",
+    "rating": 4.8,
+    "description": "A self help book.",
+    "metadata": {
+      "pages": 306,
+      "stockLeft": 20,
+      "price": 16.99,
+      "discount": 0,
+      "edition": 3
+    }
+  },
+  {
+    "id": "22",
+    "title": "Mahabharat",
+    "author": "Maharsi vedvyas",
+    "publicationYear": 1970,
+    "genre": "Holy book",
+    "rating": 4.9,
+    "description": "Dharmgranth.",
+    "metadata": {
+      "pages": 5000,
+      "stockLeft": 20,
+      "price": 16.99,
+      "discount": 0,
+      "edition": 3
     }
   }
 ]
